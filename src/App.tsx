@@ -5,7 +5,7 @@ import { SearchPage } from "./pages/SearchPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/anime-search">
       <Routes>
         <Route path="/" element={<SearchPage />} />
         <Route path="/anime/:id" element={<DetailPage />} />
